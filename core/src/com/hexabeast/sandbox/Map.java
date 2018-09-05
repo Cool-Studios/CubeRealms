@@ -145,7 +145,7 @@ public class Map {
 		mapFileVillage1 = Gdx.files.local("data/village1.tmhm");
 		mapFileVillage2 = Gdx.files.local("data/village2.tmhm");
 		
-		if(!mapFile1[0][0].file().exists() || Main.mobile) 
+		if(!mapFile1[0][0].file().exists() || Main.mobile)
 		{
 			for(int i=0; i<chunkNumberWidth; i++)
 			{
@@ -162,7 +162,7 @@ public class Map {
 			random = true;
 		} 
 
-		if(!mapFile2[0][0].file().exists() || Main.mobile) 
+		if(!mapFile2[0][0].file().exists() || Main.mobile)
 		{
 			for(int i=0; i<chunkNumberWidth; i++)
 			{
