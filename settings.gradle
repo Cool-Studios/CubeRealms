@@ -1,5 +1,4 @@
-include 'desktop', 'android', 'core'
+include 'desktop', 'android', 'core', ':ios'
 include 'Server'
 include 'server'
 include 'server'
-
