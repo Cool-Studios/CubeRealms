@@ -5,6 +5,3 @@ sourceSets.main.java.srcDirs = ["src/"]
 eclipse.project {
     name = appName + "-core"
 }
-dependencies {
-    implementation files('/Users/coolboy/StudioProjects/org.robovm.idea-2.3.5-plugin-dist.jar')
-}
